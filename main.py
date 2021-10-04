@@ -1,1 +1,3 @@
-print('Hello world!')
+v = input()
+print(v)
+print(type(v))
