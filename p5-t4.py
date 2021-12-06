@@ -15,6 +15,7 @@ if(n==2):
 if(n==3):
   r=b/(np.sqrt(phi))
 if(n==4):
+  b=3.7
   r=np.sin(b*phi)
 x=[]
 y=[]
