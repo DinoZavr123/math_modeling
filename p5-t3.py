@@ -19,4 +19,8 @@ def circle2 (radius=10):
   plt.contour (X, Y, fxy, levels=[radius**2] )
   plt.axis('equal')
   plt.show()
-circle()
+n = int(input())
+if (n==1):
+  circle()
+elif (n==2):
+  circle2()
